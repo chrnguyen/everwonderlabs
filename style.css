@@ -5,7 +5,10 @@ html,body,div, h1, h2, h3, p, img, section{
 }
 
 #sidebar{
-	width: 20em;
+	width: 30%;
+	display: inline-block;
+	float:left;
+	height: 100%;
 }
 
 h1{
@@ -14,6 +17,7 @@ h1{
 	font-size: 5em;
 	font-weight: 400;
 	font-style: italic;
+	padding-left: .2em;
 }
 
 a{
@@ -28,15 +32,15 @@ h2{
 }
 
 #right{
-	margin-left: 20em;
-	float: left;
-	background-color: #474747;
+	width: 70%;
+	display: inline-block;
+	height: 100%;
 }
 
 #contact{
 	padding-top: 2em;
 	padding-bottom: 2em;
-	padding-left: 10%;
+	padding-left: 1em;
 	font-family: 'futura-pt';
 }
 
@@ -57,50 +61,23 @@ h2{
 input{
 	border: 2px solid;
 	background-color: rgba(255,255,255,0);
-	font-size: 1.5em;
 }
 
 input[type=text]{
-	padding-top: .7em;
-	padding-bottom: .4em;
-	padding-left: .5em;
-	padding-right: .6em;
 	width: 10em;
 }
 
-#firstname{
-	padding-left:2em;
-	width: 15em;
-	background: url(person.png) no-repeat left center;
-	background-position: .3em;
-	padding-left: 2em;
-}
-
 input[type=email]{
-	padding-top: .7em;
-	padding-bottom: .4em;
-	padding-left: 2em;
-	padding-right: .5em;
 	width: 32em;
-	background: url(mailbox.png) no-repeat left center;
-	background-position: .3em;
 }
 textarea{
-	border: 2px solid;
-	font-size: 1.5em;
-	padding-top: .7em;
-	padding-bottom: .4em;
-	padding-left: 2em;
-	padding-right: .5em;
 	width: 32em;
 	height: 8em;
-	background: url(pencil.png) no-repeat left top;
-	background-position: .3em;
+	border: 2px solid;
 }
 input[type=submit]{
-	background-color: #7cc81f;
-	border-color: white;
-	font-size: 1.5em;
+	background-color: #E8175D;
+	font-size: 1.5em;s
 	padding:.5em;
 	width: 5em;
 	color: white;
