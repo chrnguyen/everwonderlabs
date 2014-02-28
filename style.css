@@ -31,17 +31,27 @@ h2{
 	
 }
 
+#sidebar h2{
+	padding-left: .7em;
+}
+
 #right{
 	width: 70%;
 	display: inline-block;
 	height: 100%;
 }
 
+#about{
+	font-family: 'futura-pt';
+	text-transform: uppercase;
+	font-size: 1.2em;
+}
+
 #contact{
 	padding-top: 2em;
 	padding-bottom: 2em;
 	padding-left: 1em;
-	font-family: 'futura-pt';
+	font-family: 'ltc-bodoni-175';
 }
 
 #contact a{
@@ -52,7 +62,6 @@ h2{
 
 #contact-title{
 	font-size: 2em;
-	font-family: 'ltc-bodoni-175';
 }
 
 .contact-line{
