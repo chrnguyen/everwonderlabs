@@ -8,10 +8,29 @@ html,body,div, h1, h2, h3, p, img, section{
 	width: 20em;
 }
 
+h1{
+	font-family: 'ltc-bodoni-175';
+	text-transform: uppercase;
+	font-size: 5em;
+	font-weight: 400;
+	font-style: italic;
+}
+
+a{
+	color: #E8175D;
+	text-decoration: none;
+}
+
+h2{
+	font-family: 'futura-pt';
+	text-transform: uppercase;
+	
+}
+
 #right{
 	margin-left: 20em;
 	float: left;
-	
+	background-color: #474747;
 }
 
 #contact{
