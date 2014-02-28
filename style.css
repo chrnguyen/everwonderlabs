@@ -52,6 +52,7 @@ h2{
 
 #contact-title{
 	font-size: 2em;
+	font-family: 'ltc-bodoni-175';
 }
 
 .contact-line{
@@ -61,10 +62,12 @@ h2{
 input{
 	border: 2px solid;
 	background-color: rgba(255,255,255,0);
+	padding: .7em;
+	font-size: 1.2em;
 }
 
 input[type=text]{
-	width: 10em;
+	width: 15em;
 }
 
 input[type=email]{
@@ -74,10 +77,11 @@ textarea{
 	width: 32em;
 	height: 8em;
 	border: 2px solid;
+	padding: .7em;
+	font-size: 1.2em;
 }
 input[type=submit]{
 	background-color: #E8175D;
-	font-size: 1.5em;s
 	padding:.5em;
 	width: 5em;
 	color: white;
