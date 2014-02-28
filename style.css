@@ -34,7 +34,6 @@ h2{
 
 h3{
 	font-family: 'futura-pt';
-	color: ##E8175D;
 	text-transform: uppercase;
 }
 
@@ -85,14 +84,14 @@ input{
 }
 
 input[type=text]{
-	width: 15em;
+	width: 44%;
 }
 
 input[type=email]{
-	width: 32em;
+	width: 94%;
 }
 textarea{
-	width: 32em;
+	width: 94%;
 	height: 8em;
 	border: 2px solid;
 	padding: .7em;
@@ -106,6 +105,8 @@ input[type=submit]{
 	width: 5em;
 	border: none;
 	color: white;
+	font-family: 'futura-pt';
+	text-transform: uppercase;
 }
 
 @media screen and (min-width: 800px) and (max-width: 1190px) {
