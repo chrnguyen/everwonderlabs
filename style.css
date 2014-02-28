@@ -4,72 +4,21 @@ html,body,div, h1, h2, h3, p, img, section{
 	border:0;
 }
 
-header {
-	background: url('Cloudscape.jpg') no-repeat;
-	background-size: cover;
-	height: 38em;
-	width: 100%;
-	margin:0;
-	padding:0;
-	border:0;
-	display:block;
+#sidebar{
+	width: 20em;
 }
 
-header h1{
-	color: white;
-	font-size: 5em;
-	padding-left: 32%;
-	padding-top: 2em;
-	font-family: 'Codystar', cursive;
-}
-#team{
-	padding-top: 2em;
-	padding-bottom: 2em;
-	background-color: #7cc81f;
-	color: white;
-	text-align: center;
-	font-family: 'Josefin Slab';
-}
-
-#team h1{
-	font-size:3.5em;
-}
-
-.member{
-	width: 45%;
-	display: inline-block;
-	padding-left: 2%;
-	padding-right: 2%;
-	font-size: 2em;
-	vertical-align: top;
-}
-
-.member ul{
-	list-style-type: none;
-}
-
-.member li{
-	padding-bottom: 1em;
-}
-
-.member a{
-	color: #a8e6ed;
-	text-decoration:none;
-}
-
-.member img{
-	width: 5em;
+#right{
+	margin-left: 20em;
+	float: left;
+	
 }
 
 #contact{
 	padding-top: 2em;
 	padding-bottom: 2em;
 	padding-left: 10%;
-	font-family: 'Josefin Slab';
-	background: url('bottomlandscape.jpg') no-repeat;
-	background-size: cover;
-	height: 50em;
-	width: 100%;
+	font-family: 'futura-pt';
 }
 
 #contact a{
@@ -87,12 +36,9 @@ header h1{
 }
 
 input{
-	border: 2px solid #b6b6b6;
+	border: 2px solid;
 	background-color: rgba(255,255,255,0);
 	font-size: 1.5em;
-	font-family: 'Josefin Slab';
-	border-radius: .3em;
-	-moz-border-radius: .3em;
 }
 
 input[type=text]{
@@ -100,7 +46,7 @@ input[type=text]{
 	padding-bottom: .4em;
 	padding-left: .5em;
 	padding-right: .6em;
-	width: 15.5em;
+	width: 10em;
 }
 
 #firstname{
@@ -121,12 +67,8 @@ input[type=email]{
 	background-position: .3em;
 }
 textarea{
-	border: 2px solid #b6b6b6;
-	background-color: rgba(255,255,255,.6);
+	border: 2px solid;
 	font-size: 1.5em;
-	font-family: 'Josefin Slab';
-	border-radius: .3em;
-	-moz-border-radius: .3em;
 	padding-top: .7em;
 	padding-bottom: .4em;
 	padding-left: 2em;
@@ -140,66 +82,13 @@ input[type=submit]{
 	background-color: #7cc81f;
 	border-color: white;
 	font-size: 1.5em;
-	font-family: 'Josefin Slab';
 	padding:.5em;
 	width: 5em;
 	color: white;
 }
 
 @media screen and (min-width: 800px) and (max-width: 1190px) {
-	body{
-		font-size: .7em;
-	}
-	header{
-		display: none;
-	}
-	.member{
-		display: block;
-		width: 100%;
-		text-align: center;
-	}
-	.gordo{
-		background-color: #a8e6ed;
-		color: black;
-		padding-top: 1em;
-		margin-top: -1em;
-	}
-	.gordo a{
-		color: white;
-	}
-	#team h1{
-		color: black;
-	}
 }
 
 @media screen and (max-width: 799px) {
-	body{
-		font-size: .5em;
-	}
-	header{
-		display: none;
-	}
-	.member{
-		display: block;
-		width: 100%;
-		text-align: center;
-	}
-	.gordo{
-		background-color: #a8e6ed;
-		color: black;
-		padding-top: 1em;
-		margin-top: -1em;
-	}
-	.gordo a{
-		color: white;
-	}
-	#team h1{
-		color: black;
-	}
-	
-	#firstname, input[type=text], input[type=email], textarea{
-		width: 70%;
-		padding: .5em;
-		background: none;
-	}
 }
