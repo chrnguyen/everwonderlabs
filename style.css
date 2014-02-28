@@ -110,7 +110,9 @@ input[type=submit]{
 }
 
 @media screen and (min-width: 500px) and (max-width: 965px) {
-	font-size: .8em;
+	body{
+		font-size: .8em;
+	}
 }
 
 @media screen and (max-width: 499px) {
