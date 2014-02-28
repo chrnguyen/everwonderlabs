@@ -32,8 +32,10 @@ h2{
 	
 }
 
-#sidebar h2{
-	padding-top: 2em;
+h3{
+	font-family: 'futura-pt';
+	color: ##E8175D;
+	text-transform: uppercase;
 }
 
 #right{
@@ -44,10 +46,10 @@ h2{
 }
 
 .content-block{
-	padding: 1em;
-	margin: 1em;
+	padding: 15px;
+	margin: 20px;
 	background-color: #f0f0f0;
-	margin-top: 2em;
+	margin-top: 15px;
 	font-family: 'ltc-bodoni-175';
 }
 
