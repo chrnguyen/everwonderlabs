@@ -109,9 +109,15 @@ input[type=submit]{
 	text-transform: uppercase;
 }
 
-@media screen and (min-width: 500px) and (max-width: 970px) {
+@media screen and (min-width: 500px) and (max-width: 1064px) {
 	body{
 		font-size: .7em;
+	}
+	#sidebar{
+		width: 30%;
+	}
+	#right{
+		margin-left: 32%;
 	}
 }
 
