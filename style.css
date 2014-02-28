@@ -85,6 +85,7 @@ input{
 
 input[type=text]{
 	width: 44%;
+	margin-right: .5em;
 }
 
 input[type=email]{
