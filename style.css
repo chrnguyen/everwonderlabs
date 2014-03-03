@@ -13,6 +13,7 @@ html,body,div, h1, h2, h3, p, img, section{
 
 #sidebar h1, h2{
 	margin-left: 20px;
+	margin-top: 10px;
 }
 
 h1{
@@ -113,7 +114,7 @@ input[type=submit]{
 	text-transform: uppercase;
 }
 
-@media screen and (min-width: 770px) and (max-width: 1064px) {
+@media screen and (min-width: 670px) and (max-width: 1064px) {
 	body{
 		font-size: .7em;
 	}
@@ -125,7 +126,7 @@ input[type=submit]{
 	}
 }
 
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 669px) {
 	#sidebar{
 		width: 100%;
 		position: relative;
