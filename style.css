@@ -85,7 +85,7 @@ input{
 
 input[type=text]{
 	width: 44%;
-	margin-right: .5em;
+	margin-right: .5%;
 }
 
 input[type=email]{
@@ -110,7 +110,7 @@ input[type=submit]{
 	text-transform: uppercase;
 }
 
-@media screen and (min-width: 500px) and (max-width: 1064px) {
+@media screen and (min-width: 690px) and (max-width: 1064px) {
 	body{
 		font-size: .7em;
 	}
@@ -122,5 +122,22 @@ input[type=submit]{
 	}
 }
 
-@media screen and (max-width: 499px) {
+@media screen and (max-width: 689px) {
+	#sidebar{
+		width: 100%;
+		position: relative;
+	}
+	#right{
+		width: 100%;
+		margin-left: 0;	
+	}
+	.content-block{
+		margin: 0;
+		width: auto;
+	}
+	
+	#input[type=text]{
+		width: 94%;
+	}
+	
 }
